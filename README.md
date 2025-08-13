@@ -22,27 +22,6 @@ O deploy e execução local podem ser feitos via **Docker**.
 
 ---
 
-## 📂 Estrutura do Projeto
-```
-
-src/
-├── main/
-│ ├── java/com/example/tc/
-│ │ ├── controller/ # Endpoints REST
-│ │ ├── service/ # Regras de negócio
-│ │ ├── repository/ # Interfaces do JPA
-│ │ ├── dto/ # Objetos de transferência de dados
-│ │ ├── domain/ # Entidades do banco
-│ │ └── security/ # Configuração JWT + Spring Security
-│ └── resources/
-│ ├── application.yml # Configurações
-│ └── schema.sql # Scripts de banco (opcional)
-└── test/ # Testes automatizados
-
-```
-
----
-
 ## 🔐 Autenticação JWT
 
 A autenticação é feita via **JWT** seguindo o fluxo:
