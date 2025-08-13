@@ -1,0 +1,41 @@
+# Compilação e build
+/target/
+/build/
+/out/
+
+# Arquivos de configuração sensíveis
+application.properties
+application.yml
+*.env
+
+# Logs
+*.log
+logs/
+*.tmp
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+*.pid
+
+# Test coverage
+/.jacoco/
+.coverage
+coverage/
+
+# Cache
+.mvn/
+.gradle/
+.cache/
